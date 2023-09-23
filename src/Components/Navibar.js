@@ -4,7 +4,7 @@ import { logo } from '../Images'
 
 function Navibar() {
   return (
-    <Navbar
+    <Navbar className=' bg-green-200'
       fluid
       rounded
     >

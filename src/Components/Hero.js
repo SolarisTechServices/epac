@@ -9,23 +9,23 @@ function Hero() {
         //   <div class="bg-emerald-300 relative  w-full m-12 ">Item2</div>
         // </div>
         // </div>
-        <div>
-            <div class="h-screen md:flex">
+        <div >
+            <div class="h-auto mt-4 mb-4 md:flex">
 
                 <div
                     class="relative overflow-hidden md:flex md:w-1/2 i m-12 justify-around items-center ">
-                    <div>
+                    <div className='z-40' >
                         <h1 class=" font-bold text-4xl font-sans">ContactUs</h1>
                         <p class=" mt-1">Message us with your query and we will get back to you as soon as possible!</p>
                     </div>
-                    <div class="absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
+                    <div class="absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8 "></div>
                     <div class="absolute -bottom-40 -left-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
                 </div>
-                <div class="flex h-full md:w-1/2 justify-center items-center bg-white">
+                <div class="flex h-auto md:w-1/2 justify-center items-center ">
                     <div className="flex items-center justify-center p-12">
 
                         <div className=" w-full ">
-                            <Card className='w-full'
+                            <Card className='w-full bg-green-100'
                                 href="#"
                             >
                                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">

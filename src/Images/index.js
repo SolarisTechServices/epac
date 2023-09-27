@@ -6,8 +6,11 @@ import jumanji from './jumanji.jpg'
 import natframes from './natframes.jpg'
 import pantheongreenavengers from './pantheon-green-avengers.jpg'
 import vanmahotsav from './vanmahotsav.jpg'
+import bannerbg from './bannerbg.jpg'
+
 
 export {
+    bannerbg,
     logo,
     facad,
     beyondcrisis,

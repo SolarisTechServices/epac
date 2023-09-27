@@ -5,12 +5,18 @@ import Footeri from '../Components/Footer'
 import Recruit from '../Components/Recruit'
 import Msg from '../Components/Msg'
 import Autoslider from '../Components/Autoslider'
+import Bounce from '../Components/Bounce'
+import Banner from '../Components/Banner'
+
 function Home() {
   return (
     <div className=' bg-green-50'>
+      
     <Navibar/>
+    <Banner/>
     <Recruit/>
     <Hero/>
+    <Bounce/>
     <Autoslider/>
     <Msg/>
     

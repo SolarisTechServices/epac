@@ -55,7 +55,7 @@ body {
     cursor:pointer;
   }
   .slide:hover{
-    transform:scale(0.8)
+    transform:scale(2.0)
   }
   
   @keyframes scroll {
@@ -72,7 +72,7 @@ body {
       transform: translateX(0px);
     }
     100% {
-      transform: translateX(calc(-150px * 5));
+      transform: translateX(calc(-150px * 10));
     }
   }
   
@@ -103,7 +103,7 @@ body {
         transform: translateX(0px);
       }
       100% {
-        transform: translateX(calc(-80px * 5));
+        transform: translateX(calc(-80px * 10));
       }
     }
   }

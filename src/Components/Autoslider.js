@@ -83,7 +83,7 @@ function Autoslider() {
                 </div>
             <center>
                 <Link  to='/events'>
-                <Glowingbut onClick={navigateSignup} children = "I want more!"/>
+                <Glowingbut  children = "I want more!"/>
                 </Link >
             
             </center>

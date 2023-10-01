@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Button } from 'flowbite-react'
 import { logo } from '../Images'
+import { Link } from 'react-router-dom'
 
 function Navibar() {
   return (
@@ -27,6 +28,7 @@ function Navibar() {
       </div>
       <Navbar.Collapse
       className='m-4'>
+        <Link  to='/'>
         <Navbar.Link
           active
           href="#"
@@ -35,18 +37,27 @@ function Navibar() {
             Home
           </p>
         </Navbar.Link>
+        </Link>
+        <Link  to='/events'>
+        <Navbar.Link href="#">
+          Events
+        </Navbar.Link>
+        </Link>
+        <Link  to='/team'>
         <Navbar.Link href="#">
           Our Team
         </Navbar.Link>
-        <Navbar.Link href="#">
-          Alumni
-        </Navbar.Link>
+        </Link>
+        <Link  to='/gallery'>
         <Navbar.Link href="#">
           Gallery
         </Navbar.Link>
+        </Link>
+        <Link  to='/contact'>
         <Navbar.Link href="#">
           Contact Us
         </Navbar.Link>
+        </Link>
       </Navbar.Collapse>
     </Navbar>
   )

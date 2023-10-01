@@ -16,7 +16,7 @@ interface Props {
       
     }) => { 
     return (
-      <button onClick={onClick} className='button mx-4 my-4'>
+      <button onClick={onClick} className='buttonglowing mx-4 my-4'>
       {children}
       </button>
     );

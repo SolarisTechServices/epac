@@ -20,9 +20,11 @@ function Navibar() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
+      <Link to = '/events'>
         <Button>
           Events
         </Button>
+        </Link>
         <Navbar.Toggle 
         className='mx-4'/>
       </div>

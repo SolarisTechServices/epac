@@ -7,6 +7,7 @@ import Msg from '../Components/Msg'
 import Autoslider from '../Components/Autoslider'
 import Bounce from '../Components/Bounce'
 import Banner from '../Components/Banner'
+import Globe from 'react-globe.gl'
 
 
 function Home() {
@@ -20,9 +21,10 @@ function Home() {
     <Recruit/>
     <Hero/>
     <Bounce/>
+    
     <Autoslider/>
     <Msg/>
-    
+    {/* <Globe/> */}
     <Footeri/>
     </div>
   )

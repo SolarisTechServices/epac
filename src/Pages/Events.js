@@ -75,6 +75,135 @@ function Events() {
         </Navbar.Collapse>
       </Navbar>
 
+      {/* Upcoming Event */}
+      <div>
+        <center>
+          <h5 className="text-4xl font-bold tracking-tight mt-8 mb-8 text-gray-900 dark:text-white ">
+            <p >
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-300">Upcoming Events</span>
+            </p>
+          </h5>
+          <h5 className="text-2xl font-bold tracking-tight mt-4 mb-2  text-gray-900 dark:text-white ">
+            <p >
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-300">Jungle Joust</span>
+            </p>
+          </h5>
+        </center>
+        {/* <Carousel className='h-96 w-auto ml-5 mr-5 mb-4 '  >
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1rSFyo2B-Te-U7udR4ulHSTB132aO8_V-"
+          />
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1PSnmdIoVElEFYQtXrNCdDg49fJJ-YWWS"
+          />
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1lOj8e1vtg3JJp6d-XdddTOvtw_w_8Yt7"
+          />
+        </Carousel> */}
+        {/* <center>
+
+          <h5 className="text-2xl font-bold tracking-tight mt-4 mb-4 text-gray-900 dark:text-white ">
+            <p >
+              <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-300">Media and Coverage</span>
+            </p>
+          </h5>
+        </center>
+
+        <Carousel className='h-96 w-auto ml-5 mr-5 mb-4 '  >
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1sn1zNO0HBCFABjXWmqEdfys6kua7S4ko"
+          />
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1sjzik2cQJCh2YOE4vu_hmtjqI6imxJQp"
+          />
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1ZQz1CUS56ibkX01eKqgTIyA2A1wCbgKa"
+          />
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1hYUfCrE78x6Uj_LZa98PUszQbH05V5vx"
+          />
+          <img className='object-contain h-full '
+            alt="..."
+            src="https://drive.google.com/uc?export=view&id=1puiBAzV6kqPClOrc9-0ixrZpJyXgNVGM"
+          />
+        </Carousel> */}
+
+        {/* https://drive.google.com/uc?export=view&id=INSERT_HERE_YOUR_GOOGLE_DRIVE_IMAGE_ID */}
+        <center>
+          <video className='sm: h-auto w-auto  md:w-auto md:ml-4 md:mr-4 lg:h-[480px]   mb-8'
+            src="https://drive.google.com/uc?id=1kAfFvaysiPnKPpz900HjjyJ_85h-jQzK" controls>
+          </video>
+        </center>
+
+
+
+        <Card className='w-auto mx-6 mb-4 bg-green-100'
+          href="#"
+        >
+          <p className="font-normal text-gray-700 dark:text-gray-400">
+            <p>
+              "In a unique fusion of gaming and environmental consciousness, the event "Jungle Joust: BGMI Reforest Rampage" brings together the thrill of competitive gaming and the urgent need for ecological preservation. Organized by a collaboration of gaming enthusiasts and environmentalists, this event is a two-round online gaming tournament featuring the popular mobile game "Battlegrounds Mobile India" (BGMI). What sets this event apart is its innovative approach to tree planting – for every kill achieved by the top three finalists in each round, a tree will be planted in a designated reforestation area.
+            </p>
+            <p className='mt-2 mb-2' >
+              <center>
+              <h5 className="text-1xl font-bold tracking-tight mt-4  text-gray-900 dark:text-white ">
+                <p >
+                  <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-300">Round 1: Verdant Vanguard Elimination</span>
+                </p>
+              </h5>
+              </center>
+              The first round, aptly named "Verdant Vanguard Elimination," takes place over a weekend. Players from all over the BIT Mesra register for the tournament, showcasing their skills in BGMI. Participants engage in a series of thrilling Squad Matches, aiming to accumulate as many kills as possible. The round is characterized by intense gameplay and fierce competition as players battle to secure a spot in the top three.
+
+              As the first round concludes, the organizers tally up the kills achieved by each of the participants. 
+              The top two squads players with the highest kill counts advance to the final round. 
+
+            </p>
+            <p className='mt-2 mb-'>
+              <center>
+            <h5 className="text-1xl font-bold tracking-tight mt-4  text-gray-900 dark:text-white ">
+                <p >
+                  <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-300">Round 2: Arboreal Showdown Championship</span>
+                </p>
+              </h5>
+              </center>
+
+              The second round, the "Arboreal Showdown Championship," is the culmination of the event. The top two squads from the first round now face off in a series of custom solo matches. These matches will be live-streamed to a global audience, showcasing the exceptional skills of the finalists and adding an element of excitement and suspense to the event.
+
+              With each kill accomplished by the finalists in the championship round, the organizers plant a corresponding number of trees in the chosen reforestation area. This creative approach links virtual achievements to real-world impact, reinforcing the idea that actions in the gaming world can translate into positive change for the environment."
+
+            </p>
+            <p className='mt-2 mb-'>
+              <center>
+            <h5 className="text-1xl font-bold tracking-tight mt-4  text-gray-900 dark:text-white ">
+                <p >
+                  <span class="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-300">Prize Pool: 8K</span>
+                </p>
+              </h5>
+              </center>
+              <center>
+              1st : 5K<br/>
+              2nd : 2K<br/>
+              3rd : 1K<br/>
+              </center>
+            </p>
+          </p>
+        </Card>
+        <center>
+        <Link  to='/'>
+        <button  className='buttonglowing mx-4 my-4'>
+      Register Now!
+      </button>
+                </Link >
+                </center>
+      </div>
+
       {/* Jsef */}
       <div>
         <center>

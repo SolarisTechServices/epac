@@ -10,8 +10,10 @@ import bannerbg from './bannerbg.jpg'
 import eve_natframes1 from './eve_natframes1.png'
 import eve_natframes2 from './eve_natframes2.png'
 import banner2 from './banner2.jpg'
+import earthnite from './earth-night.jpg'
 
 export {
+    earthnite,
     banner2,
     eve_natframes1,
     eve_natframes2,
